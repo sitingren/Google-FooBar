@@ -33,5 +33,5 @@ def answerHelper(seq):
 
 def answer(seq):
     if seq is None or len(seq) == 0:
-        return 1
+        return "1"
     return "%d" % answerHelper(seq)    
